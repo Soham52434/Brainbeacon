@@ -1,0 +1,118 @@
+{
+    "cards": [
+        {
+            "image": "/images/image1.png",
+            "title": "College Fest, Mumbai",
+            "description": "An experience worth experiencing"
+        },
+        {
+            "image": "/images/image2.png",
+            "title": "Vicinity, Pune",
+            "description": "Small community of doctors and psychologists"
+        },
+        {
+            "image": "/images/image3.png",
+            "title": "Vivantra, Delhi",
+            "description": "A summit to embrace, enlarge, engage with the community"
+        },
+        {
+            "image": "/images/image1.png",
+            "title": "College Fest, Mumbai",
+            "description": "An experience worth experiencing"
+        },
+        {
+            "image": "/images/image2.png",
+            "title": "Vicinity, Pune",
+            "description": "Small community of doctors and psychologists"
+        },
+        {
+            "image": "/images/image3.png",
+            "title": "Vivantra, Delhi",
+            "description": "A summit to embrace, enlarge, engage with the community"
+        },
+        {
+            "image": "/images/image1.png",
+            "title": "College Fest, Mumbai",
+            "description": "An experience worth experiencing"
+        },
+        {
+            "image": "/images/image2.png",
+            "title": "Vicinity, Pune",
+            "description": "Small community of doctors and psychologists"
+        },
+        {
+            "image": "/images/image3.png",
+            "title": "Vivantra, Delhi",
+            "description": "A summit to embrace, enlarge, engage with the community"
+        },
+        {
+            "image": "image1.png",
+            "title": "College Fest, Mumbai",
+            "description": "An experience worth experiencing"
+        },
+        {
+            "image": "/images/image2.png",
+            "title": "Vicinity, Pune",
+            "description": "Small community of doctors and psychologists"
+        },
+        {
+            "image": "/images/image3.png",
+            "title": "Vivantra, Delhi",
+            "description": "A summit to embrace, enlarge, engage with the community"
+        }
+    ],
+    "articles": [
+        {
+            "image": "/images/image4.png",
+            "title": "The Neuroscience of Habit Formation: How Our Brains Create and Break Habits",
+            "description": "Habits are powerful forces that shape much of our daily lives, from the morning routines we follow to the productivity hacks we employ. But how are these habits formed, and why can they be so hard to break? Neuroscience reveals that habit formation is deeply rooted in the brain’s structure and chemistry, particularly in areas like the basal ganglia, which manage routine behaviors. Understanding the mechanisms behind habit loops—the cue, routine, and reward cycle—offers insight into why habits stick and how they can be modified. By examining the latest research, we can uncover strategies to foster positive habits and break the cycle of unhelpful ones."
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction."
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success."
+        },
+        {
+            "image": "/images/image7.png",
+            "title": "Digital Mental Health: How Technology is Transforming Psychological Care",
+            "description": "With the rise of digital tools, mental health care has experienced a transformation, providing accessible options for support and therapy. From mobile apps to online counseling platforms, technology is reshaping how individuals seek help, offering anonymity, convenience, and an array of self-care resources. This article examines the benefits and limitations of digital mental health solutions, as well as the ethical and practical challenges they pose. By understanding these advancements, we can see how technology is making mental health support more available and affordable, even as the demand for such services continues to grow."
+        }
+    ],
+    "psy_cards": [
+        {
+            "image": "/images/image8.png",
+            "title": "Andrew Tate",
+            "description": "Pune,India"
+        },
+        {
+            "image": "/images/image10.png",
+            "title": "Luis Litt",
+            "description": "Pune,India"
+        },
+        {
+            "image": "/images/image9.png",
+            "title": "Harvey Specter",
+            "description": "Mumbai,India"
+        },
+        {
+            "image": "/images/image10.png",
+            "title": "Michael Ross",
+            "description": "Delhi,India"
+        },
+        {
+            "image": "/images/image9.png",
+            "title": "Liam Brown",
+            "description": "Chennai,India"
+        },
+        {
+            "image": "/images/image8.png",
+            "title": "Ethan Clark",
+            "description": "Kolkata,India"
+        }
+    ]
+}

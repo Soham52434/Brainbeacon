@@ -1,0 +1,155 @@
+<style>
+    .upload-container {
+        background-color: #4a90e2;
+        border: 3px dashed #d6e5fa;
+        border-radius: 15px;
+        text-align: center;
+        padding: 40px;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 20%;
+        margin-top: 15%;
+        max-width: 800px;
+        position: relative;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .upload-container h2 {
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .upload-btn {
+        display: inline-block;
+        background-color: #ff7f50;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        margin-top: 15px;
+        transition: background-color 0.3s;
+    }
+    .upload-btn:hover {
+        background-color: #ff6347;
+    }
+    #articleTitle {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        font-size: 1.1em;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
+</style>
+
+<div class="upload-container">
+    <h2>Upload Article</h2>
+    <input type="text" id="articleTitle" placeholder="Enter the article title">
+    <input type="file" id="fileInput" accept="application/pdf">
+    <button id="uploadBtn" class="upload-btn">Upload</button>
+</div>
+
+<script>
+    document.getElementById('uploadBtn').addEventListener('click', async () => {
+        const title = document.getElementById('articleTitle').value.trim();
+        const fileInput = document.getElementById('fileInput');
+        const file = fileInput.files[0];
+
+        if (!title || !file) {
+            console.error('Title or file is missing');
+            showFeedback('error', 'Title or file is missing');
+            return;
+        }
+
+        if (file.type !== 'application/pdf') {
+            console.error('Invalid file type');
+            showFeedback('error', 'Only PDF files are allowed');
+            return;
+        }
+
+        // Read article ID from the cookie
+        const brainbeacon = getCookie('brainbeacon');
+        let articleId = null;
+
+        if (brainbeacon) {
+            const params = new URLSearchParams(brainbeacon);
+            articleId = params.get('articleid');
+        }
+
+        if (!articleId) {
+            console.error('Article ID not found in cookies');
+            showFeedback('error', 'Article ID is missing');
+            return;
+        }
+
+        // Convert PDF file to Base64
+        const base64File = await fileToBase64(file);
+
+        // Log the title, Base64 data, and article ID
+        console.log('Title:', title);
+        console.log('Base64 Data:', base64File);
+        console.log('Article ID:', articleId);
+
+        // Send data to the backend
+        fetch('/save-articles-upload', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                title: title,
+                file: base64File,
+                articleId: articleId
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log('Response:', data);
+            showFeedback('success', data.message || 'Upload successful!');
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            showFeedback('error', 'An error occurred during the upload');
+        });
+    });
+
+    function fileToBase64(file) {
+        return new Promise((resolve, reject) => {
+            const reader = new FileReader();
+            reader.onload = () => resolve(reader.result.split(',')[1]);
+            reader.onerror = error => reject(error);
+            reader.readAsDataURL(file);
+        });
+    }
+
+    function getCookie(name) {
+        const value = `; ${document.cookie}`;
+        const parts = value.split(`; ${name}=`);
+        if (parts.length === 2) return parts.pop().split(';').shift();
+    }
+
+    function updateCookie(name, newArticleId) {
+        let cookieValue = getCookie(name);
+        if (cookieValue) {
+            const params = new URLSearchParams(cookieValue);
+
+            // Remove existing articleId keys
+            for (const key of params.keys()) {
+                if (key === 'articleid') {
+                    params.delete(key);
+                }
+            }
+
+            // Add the new articleId
+            params.append('articleid', newArticleId);
+            document.cookie = `${name}=${params.toString()}; path=/`;
+        } else {
+            // Set a new cookie if none exists
+            document.cookie = `${name}=articleid=${newArticleId}; path=/`;
+        }
+    }
+
+    function showFeedback(type, message) {
+        alert(message); // Replace this with a modal or custom UI for better UX
+    }
+</script>

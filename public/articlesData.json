@@ -1,0 +1,820 @@
+{
+    "articles": [
+        {
+            "image": "/images/image4.png",
+            "title": "The Neuroscience of Habit Formation: How Our Brains Create and Break Habits",
+            "description": "Habits are powerful forces that shape much of our daily lives, from the morning routines we follow to the productivity hacks we employ. But how are these habits formed, and why can they be so hard to break? Neuroscience reveals that habit formation is deeply rooted in the brain’s structure and chemistry, particularly in areas like the basal ganglia, which manage routine behaviors. Understanding the mechanisms behind habit loops—the cue, routine, and reward cycle—offers insight into why habits stick and how they can be modified. By examining the latest research, we can uncover strategies to foster positive habits and break the cycle of unhelpful ones.",
+            "pfp":"/images/pfp1.png",
+            "name":"John Doe",
+            "date":"4 November 2024"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp2.png",
+            "name":"Dwayne Smith",
+            "date":"21 December 2021"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp3.png",
+            "name":"Rohan Mehta",
+            "date":"1 May 2019"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp4.png",
+            "name":"Mira Singh",
+            "date":"19 June 2011"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp5.png",
+            "name":"Neeta Singh",
+            "date":"20 July 2011"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp6.png",
+            "name":"Ishita Rao",
+            "date":"27 November 2010"
+        },
+        {
+            "image": "/images/image4.png",
+            "title": "The Neuroscience of Habit Formation: How Our Brains Create and Break Habits",
+            "description": "Habits are powerful forces that shape much of our daily lives, from the morning routines we follow to the productivity hacks we employ. But how are these habits formed, and why can they be so hard to break? Neuroscience reveals that habit formation is deeply rooted in the brain’s structure and chemistry, particularly in areas like the basal ganglia, which manage routine behaviors. Understanding the mechanisms behind habit loops—the cue, routine, and reward cycle—offers insight into why habits stick and how they can be modified. By examining the latest research, we can uncover strategies to foster positive habits and break the cycle of unhelpful ones.",
+            "pfp":"/images/pfp1.png",
+            "name":"John Doe",
+            "date":"4 November 2024"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp2.png",
+            "name":"Dwayne Smith",
+            "date":"21 December 2021"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp3.png",
+            "name":"Rohan Mehta",
+            "date":"1 May 2019"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp4.png",
+            "name":"Mira Singh",
+            "date":"19 June 2011"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp5.png",
+            "name":"Neeta Singh",
+            "date":"20 July 2011"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp6.png",
+            "name":"Ishita Rao",
+            "date":"27 November 2010"
+        },
+        {
+            "image": "/images/image4.png",
+            "title": "The Neuroscience of Habit Formation: How Our Brains Create and Break Habits",
+            "description": "Habits are powerful forces that shape much of our daily lives, from the morning routines we follow to the productivity hacks we employ. But how are these habits formed, and why can they be so hard to break? Neuroscience reveals that habit formation is deeply rooted in the brain’s structure and chemistry, particularly in areas like the basal ganglia, which manage routine behaviors. Understanding the mechanisms behind habit loops—the cue, routine, and reward cycle—offers insight into why habits stick and how they can be modified. By examining the latest research, we can uncover strategies to foster positive habits and break the cycle of unhelpful ones.",
+            "pfp":"/images/pfp1.png",
+            "name":"John Doe",
+            "date":"4 November 2024"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp2.png",
+            "name":"Dwayne Smith",
+            "date":"21 December 2021"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp3.png",
+            "name":"Rohan Mehta",
+            "date":"1 May 2019"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp4.png",
+            "name":"Mira Singh",
+            "date":"19 June 2011"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp5.png",
+            "name":"Neeta Singh",
+            "date":"20 July 2011"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp6.png",
+            "name":"Ishita Rao",
+            "date":"27 November 2010"
+        },
+        {
+            "image": "/images/image4.png",
+            "title": "The Neuroscience of Habit Formation: How Our Brains Create and Break Habits",
+            "description": "Habits are powerful forces that shape much of our daily lives, from the morning routines we follow to the productivity hacks we employ. But how are these habits formed, and why can they be so hard to break? Neuroscience reveals that habit formation is deeply rooted in the brain’s structure and chemistry, particularly in areas like the basal ganglia, which manage routine behaviors. Understanding the mechanisms behind habit loops—the cue, routine, and reward cycle—offers insight into why habits stick and how they can be modified. By examining the latest research, we can uncover strategies to foster positive habits and break the cycle of unhelpful ones.",
+            "pfp":"/images/pfp1.png",
+            "name":"John Doe",
+            "date":"4 November 2024"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp2.png",
+            "name":"Dwayne Smith",
+            "date":"21 December 2021"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp3.png",
+            "name":"Rohan Mehta",
+            "date":"1 May 2019"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp4.png",
+            "name":"Mira Singh",
+            "date":"19 June 2011"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp5.png",
+            "name":"Neeta Singh",
+            "date":"20 July 2011"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp6.png",
+            "name":"Ishita Rao",
+            "date":"27 November 2010"
+        },
+        {
+            "image": "/images/image4.png",
+            "title": "The Neuroscience of Habit Formation: How Our Brains Create and Break Habits",
+            "description": "Habits are powerful forces that shape much of our daily lives, from the morning routines we follow to the productivity hacks we employ. But how are these habits formed, and why can they be so hard to break? Neuroscience reveals that habit formation is deeply rooted in the brain’s structure and chemistry, particularly in areas like the basal ganglia, which manage routine behaviors. Understanding the mechanisms behind habit loops—the cue, routine, and reward cycle—offers insight into why habits stick and how they can be modified. By examining the latest research, we can uncover strategies to foster positive habits and break the cycle of unhelpful ones.",
+            "pfp":"/images/pfp1.png",
+            "name":"John Doe",
+            "date":"4 November 2024"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp2.png",
+            "name":"Dwayne Smith",
+            "date":"21 December 2021"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp3.png",
+            "name":"Rohan Mehta",
+            "date":"1 May 2019"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp4.png",
+            "name":"Mira Singh",
+            "date":"19 June 2011"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp5.png",
+            "name":"Neeta Singh",
+            "date":"20 July 2011"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp6.png",
+            "name":"Ishita Rao",
+            "date":"27 November 2010"
+        },
+        {
+            "image": "/images/image4.png",
+            "title": "The Neuroscience of Habit Formation: How Our Brains Create and Break Habits",
+            "description": "Habits are powerful forces that shape much of our daily lives, from the morning routines we follow to the productivity hacks we employ. But how are these habits formed, and why can they be so hard to break? Neuroscience reveals that habit formation is deeply rooted in the brain’s structure and chemistry, particularly in areas like the basal ganglia, which manage routine behaviors. Understanding the mechanisms behind habit loops—the cue, routine, and reward cycle—offers insight into why habits stick and how they can be modified. By examining the latest research, we can uncover strategies to foster positive habits and break the cycle of unhelpful ones.",
+            "pfp":"/images/pfp1.png",
+            "name":"John Doe",
+            "date":"4 November 2024"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp2.png",
+            "name":"Dwayne Smith",
+            "date":"21 December 2021"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp3.png",
+            "name":"Rohan Mehta",
+            "date":"1 May 2019"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp4.png",
+            "name":"Mira Singh",
+            "date":"19 June 2011"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp5.png",
+            "name":"Neeta Singh",
+            "date":"20 July 2011"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp6.png",
+            "name":"Ishita Rao",
+            "date":"27 November 2010"
+        },
+        {
+            "image": "/images/image4.png",
+            "title": "The Neuroscience of Habit Formation: How Our Brains Create and Break Habits",
+            "description": "Habits are powerful forces that shape much of our daily lives, from the morning routines we follow to the productivity hacks we employ. But how are these habits formed, and why can they be so hard to break? Neuroscience reveals that habit formation is deeply rooted in the brain’s structure and chemistry, particularly in areas like the basal ganglia, which manage routine behaviors. Understanding the mechanisms behind habit loops—the cue, routine, and reward cycle—offers insight into why habits stick and how they can be modified. By examining the latest research, we can uncover strategies to foster positive habits and break the cycle of unhelpful ones.",
+            "pfp":"/images/pfp1.png",
+            "name":"John Doe",
+            "date":"4 November 2024"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp2.png",
+            "name":"Dwayne Smith",
+            "date":"21 December 2021"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp3.png",
+            "name":"Rohan Mehta",
+            "date":"1 May 2019"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp4.png",
+            "name":"Mira Singh",
+            "date":"19 June 2011"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp5.png",
+            "name":"Neeta Singh",
+            "date":"20 July 2011"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp6.png",
+            "name":"Ishita Rao",
+            "date":"27 November 2010"
+        },
+        {
+            "image": "/images/image4.png",
+            "title": "The Neuroscience of Habit Formation: How Our Brains Create and Break Habits",
+            "description": "Habits are powerful forces that shape much of our daily lives, from the morning routines we follow to the productivity hacks we employ. But how are these habits formed, and why can they be so hard to break? Neuroscience reveals that habit formation is deeply rooted in the brain’s structure and chemistry, particularly in areas like the basal ganglia, which manage routine behaviors. Understanding the mechanisms behind habit loops—the cue, routine, and reward cycle—offers insight into why habits stick and how they can be modified. By examining the latest research, we can uncover strategies to foster positive habits and break the cycle of unhelpful ones.",
+            "pfp":"/images/pfp1.png",
+            "name":"John Doe",
+            "date":"4 November 2024"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp2.png",
+            "name":"Dwayne Smith",
+            "date":"21 December 2021"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp3.png",
+            "name":"Rohan Mehta",
+            "date":"1 May 2019"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp4.png",
+            "name":"Mira Singh",
+            "date":"19 June 2011"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp5.png",
+            "name":"Neeta Singh",
+            "date":"20 July 2011"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp6.png",
+            "name":"Ishita Rao",
+            "date":"27 November 2010"
+        },
+        {
+            "image": "/images/image4.png",
+            "title": "The Neuroscience of Habit Formation: How Our Brains Create and Break Habits",
+            "description": "Habits are powerful forces that shape much of our daily lives, from the morning routines we follow to the productivity hacks we employ. But how are these habits formed, and why can they be so hard to break? Neuroscience reveals that habit formation is deeply rooted in the brain’s structure and chemistry, particularly in areas like the basal ganglia, which manage routine behaviors. Understanding the mechanisms behind habit loops—the cue, routine, and reward cycle—offers insight into why habits stick and how they can be modified. By examining the latest research, we can uncover strategies to foster positive habits and break the cycle of unhelpful ones.",
+            "pfp":"/images/pfp1.png",
+            "name":"John Doe",
+            "date":"4 November 2024"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp2.png",
+            "name":"Dwayne Smith",
+            "date":"21 December 2021"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp3.png",
+            "name":"Rohan Mehta",
+            "date":"1 May 2019"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp4.png",
+            "name":"Mira Singh",
+            "date":"19 June 2011"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp5.png",
+            "name":"Neeta Singh",
+            "date":"20 July 2011"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp6.png",
+            "name":"Ishita Rao",
+            "date":"27 November 2010"
+        },
+        {
+            "image": "/images/image4.png",
+            "title": "The Neuroscience of Habit Formation: How Our Brains Create and Break Habits",
+            "description": "Habits are powerful forces that shape much of our daily lives, from the morning routines we follow to the productivity hacks we employ. But how are these habits formed, and why can they be so hard to break? Neuroscience reveals that habit formation is deeply rooted in the brain’s structure and chemistry, particularly in areas like the basal ganglia, which manage routine behaviors. Understanding the mechanisms behind habit loops—the cue, routine, and reward cycle—offers insight into why habits stick and how they can be modified. By examining the latest research, we can uncover strategies to foster positive habits and break the cycle of unhelpful ones.",
+            "pfp":"/images/pfp1.png",
+            "name":"John Doe",
+            "date":"4 November 2024"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp2.png",
+            "name":"Dwayne Smith",
+            "date":"21 December 2021"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp3.png",
+            "name":"Rohan Mehta",
+            "date":"1 May 2019"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp4.png",
+            "name":"Mira Singh",
+            "date":"19 June 2011"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp5.png",
+            "name":"Neeta Singh",
+            "date":"20 July 2011"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp6.png",
+            "name":"Ishita Rao",
+            "date":"27 November 2010"
+        },
+        {
+            "image": "/images/image4.png",
+            "title": "The Neuroscience of Habit Formation: How Our Brains Create and Break Habits",
+            "description": "Habits are powerful forces that shape much of our daily lives, from the morning routines we follow to the productivity hacks we employ. But how are these habits formed, and why can they be so hard to break? Neuroscience reveals that habit formation is deeply rooted in the brain’s structure and chemistry, particularly in areas like the basal ganglia, which manage routine behaviors. Understanding the mechanisms behind habit loops—the cue, routine, and reward cycle—offers insight into why habits stick and how they can be modified. By examining the latest research, we can uncover strategies to foster positive habits and break the cycle of unhelpful ones.",
+            "pfp":"/images/pfp1.png",
+            "name":"John Doe",
+            "date":"4 November 2024"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp2.png",
+            "name":"Dwayne Smith",
+            "date":"21 December 2021"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp3.png",
+            "name":"Rohan Mehta",
+            "date":"1 May 2019"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp4.png",
+            "name":"Mira Singh",
+            "date":"19 June 2011"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp5.png",
+            "name":"Neeta Singh",
+            "date":"20 July 2011"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp6.png",
+            "name":"Ishita Rao",
+            "date":"27 November 2010"
+        },
+        {
+            "image": "/images/image4.png",
+            "title": "The Neuroscience of Habit Formation: How Our Brains Create and Break Habits",
+            "description": "Habits are powerful forces that shape much of our daily lives, from the morning routines we follow to the productivity hacks we employ. But how are these habits formed, and why can they be so hard to break? Neuroscience reveals that habit formation is deeply rooted in the brain’s structure and chemistry, particularly in areas like the basal ganglia, which manage routine behaviors. Understanding the mechanisms behind habit loops—the cue, routine, and reward cycle—offers insight into why habits stick and how they can be modified. By examining the latest research, we can uncover strategies to foster positive habits and break the cycle of unhelpful ones.",
+            "pfp":"/images/pfp1.png",
+            "name":"John Doe",
+            "date":"4 November 2024"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp2.png",
+            "name":"Dwayne Smith",
+            "date":"21 December 2021"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp3.png",
+            "name":"Rohan Mehta",
+            "date":"1 May 2019"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp4.png",
+            "name":"Mira Singh",
+            "date":"19 June 2011"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp5.png",
+            "name":"Neeta Singh",
+            "date":"20 July 2011"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp6.png",
+            "name":"Ishita Rao",
+            "date":"27 November 2010"
+        },
+        {
+            "image": "/images/image4.png",
+            "title": "The Neuroscience of Habit Formation: How Our Brains Create and Break Habits",
+            "description": "Habits are powerful forces that shape much of our daily lives, from the morning routines we follow to the productivity hacks we employ. But how are these habits formed, and why can they be so hard to break? Neuroscience reveals that habit formation is deeply rooted in the brain’s structure and chemistry, particularly in areas like the basal ganglia, which manage routine behaviors. Understanding the mechanisms behind habit loops—the cue, routine, and reward cycle—offers insight into why habits stick and how they can be modified. By examining the latest research, we can uncover strategies to foster positive habits and break the cycle of unhelpful ones.",
+            "pfp":"/images/pfp1.png",
+            "name":"John Doe",
+            "date":"4 November 2024"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp2.png",
+            "name":"Dwayne Smith",
+            "date":"21 December 2021"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp3.png",
+            "name":"Rohan Mehta",
+            "date":"1 May 2019"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp4.png",
+            "name":"Mira Singh",
+            "date":"19 June 2011"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp5.png",
+            "name":"Neeta Singh",
+            "date":"20 July 2011"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp6.png",
+            "name":"Ishita Rao",
+            "date":"27 November 2010"
+        },
+        {
+            "image": "/images/image4.png",
+            "title": "The Neuroscience of Habit Formation: How Our Brains Create and Break Habits",
+            "description": "Habits are powerful forces that shape much of our daily lives, from the morning routines we follow to the productivity hacks we employ. But how are these habits formed, and why can they be so hard to break? Neuroscience reveals that habit formation is deeply rooted in the brain’s structure and chemistry, particularly in areas like the basal ganglia, which manage routine behaviors. Understanding the mechanisms behind habit loops—the cue, routine, and reward cycle—offers insight into why habits stick and how they can be modified. By examining the latest research, we can uncover strategies to foster positive habits and break the cycle of unhelpful ones.",
+            "pfp":"/images/pfp1.png",
+            "name":"John Doe",
+            "date":"4 November 2024"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp2.png",
+            "name":"Dwayne Smith",
+            "date":"21 December 2021"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp3.png",
+            "name":"Rohan Mehta",
+            "date":"1 May 2019"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp4.png",
+            "name":"Mira Singh",
+            "date":"19 June 2011"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp5.png",
+            "name":"Neeta Singh",
+            "date":"20 July 2011"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp6.png",
+            "name":"Ishita Rao",
+            "date":"27 November 2010"
+        },
+        {
+            "image": "/images/image4.png",
+            "title": "The Neuroscience of Habit Formation: How Our Brains Create and Break Habits",
+            "description": "Habits are powerful forces that shape much of our daily lives, from the morning routines we follow to the productivity hacks we employ. But how are these habits formed, and why can they be so hard to break? Neuroscience reveals that habit formation is deeply rooted in the brain’s structure and chemistry, particularly in areas like the basal ganglia, which manage routine behaviors. Understanding the mechanisms behind habit loops—the cue, routine, and reward cycle—offers insight into why habits stick and how they can be modified. By examining the latest research, we can uncover strategies to foster positive habits and break the cycle of unhelpful ones.",
+            "pfp":"/images/pfp1.png",
+            "name":"John Doe",
+            "date":"4 November 2024"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp2.png",
+            "name":"Dwayne Smith",
+            "date":"21 December 2021"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp3.png",
+            "name":"Rohan Mehta",
+            "date":"1 May 2019"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp4.png",
+            "name":"Mira Singh",
+            "date":"19 June 2011"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp5.png",
+            "name":"Neeta Singh",
+            "date":"20 July 2011"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp6.png",
+            "name":"Ishita Rao",
+            "date":"27 November 2010"
+        },
+        {
+            "image": "/images/image4.png",
+            "title": "The Neuroscience of Habit Formation: How Our Brains Create and Break Habits",
+            "description": "Habits are powerful forces that shape much of our daily lives, from the morning routines we follow to the productivity hacks we employ. But how are these habits formed, and why can they be so hard to break? Neuroscience reveals that habit formation is deeply rooted in the brain’s structure and chemistry, particularly in areas like the basal ganglia, which manage routine behaviors. Understanding the mechanisms behind habit loops—the cue, routine, and reward cycle—offers insight into why habits stick and how they can be modified. By examining the latest research, we can uncover strategies to foster positive habits and break the cycle of unhelpful ones.",
+            "pfp":"/images/pfp1.png",
+            "name":"John Doe",
+            "date":"4 November 2024"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp2.png",
+            "name":"Dwayne Smith",
+            "date":"21 December 2021"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp3.png",
+            "name":"Rohan Mehta",
+            "date":"1 May 2019"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp4.png",
+            "name":"Mira Singh",
+            "date":"19 June 2011"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp5.png",
+            "name":"Neeta Singh",
+            "date":"20 July 2011"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp6.png",
+            "name":"Ishita Rao",
+            "date":"27 November 2010"
+        },
+        {
+            "image": "/images/image4.png",
+            "title": "The Neuroscience of Habit Formation: How Our Brains Create and Break Habits",
+            "description": "Habits are powerful forces that shape much of our daily lives, from the morning routines we follow to the productivity hacks we employ. But how are these habits formed, and why can they be so hard to break? Neuroscience reveals that habit formation is deeply rooted in the brain’s structure and chemistry, particularly in areas like the basal ganglia, which manage routine behaviors. Understanding the mechanisms behind habit loops—the cue, routine, and reward cycle—offers insight into why habits stick and how they can be modified. By examining the latest research, we can uncover strategies to foster positive habits and break the cycle of unhelpful ones.",
+            "pfp":"/images/pfp1.png",
+            "name":"John Doe",
+            "date":"4 November 2024"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp2.png",
+            "name":"Dwayne Smith",
+            "date":"21 December 2021"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp3.png",
+            "name":"Rohan Mehta",
+            "date":"1 May 2019"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp4.png",
+            "name":"Mira Singh",
+            "date":"19 June 2011"
+        },
+        {
+            "image": "/images/image6.png",
+            "title": "The Psychology of Motivation: What Drives Us and How to Sustain It",
+            "description": "Motivation is the fuel that drives us toward our goals, yet it can often feel elusive or short-lived. Psychologists distinguish between intrinsic motivation—pursuing goals for personal satisfaction—and extrinsic motivation, driven by external rewards like recognition or financial gain. This article delves into the psychological theories behind motivation, from Maslow’s hierarchy of needs to self-determination theory, and explores how understanding these concepts can lead to more sustainable sources of drive. Recognizing what truly motivates us can provide the foundation for achieving long-term success.",
+            "pfp":"/images/pfp5.png",
+            "name":"Neeta Singh",
+            "date":"20 July 2011"
+        },
+        {
+            "image": "/images/image5.png",
+            "title": "Understanding Emotional Intelligence: Its Impact on Personal and Professional Success",
+            "description": "Emotional intelligence (EQ) has become a crucial predictor of success, influencing everything from personal relationships to career progression. Defined as the ability to recognize, understand, and manage our emotions and those of others, EQ shapes our responses to stress, conflict, and social interactions. Unlike IQ, which measures cognitive abilities, EQ is about empathy, communication, and resilience. Exploring how emotional intelligence develops and its significance across various life domains sheds light on why high EQ can sometimes outweigh raw intelligence in determining achievement and satisfaction.",
+            "pfp":"/images/pfp6.png",
+            "name":"Ishita Rao",
+            "date":"27 November 2010"
+        }
+    ]
+}

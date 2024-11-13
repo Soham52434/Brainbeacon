@@ -1,0 +1,221 @@
+.navposition {
+    right: 60%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10; 
+}
+
+/* Search Button Css*/
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: min-content;
+}
+
+#search-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+}
+
+#search-box {
+    position: absolute;
+    right: 100%;
+    /* Start on the left side of the icon */
+    display: flex;
+    align-items: center;
+    background-color: #FFFBF2;
+    border-radius: 25px;
+    padding: 8px 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    width: 0;
+    /* overflow: hidden; */
+    transition: width 0.3s ease, opacity 0.3s ease;
+}
+
+#search-box.show {
+    width: max-content;
+    max-width: 200px;
+    /* Adjust width as needed */
+    opacity: 1;
+}
+
+#search-box input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    color: #333;
+    width: 100%;
+    margin-left: 8px;
+    transition: opacity 0.3s ease;
+    opacity: 1;
+}
+
+.hidden #search-box input {
+    opacity: 0;
+}
+
+/* Search button CSS */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    align-items: center;
+}
+
+.menu div {
+    margin: 0 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Switch CSS starts here */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 64px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #73C0FC;
+    transition: .4s;
+    border-radius: 30px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    left: 2px;
+    bottom: 2px;
+    z-index: 2;
+    background-color: #e8e8e8;
+    transition: .4s;
+}
+
+.sun svg {
+    position: absolute;
+    top: 6px;
+    left: 36px;
+    z-index: 1;
+    width: 24px;
+    height: 24px;
+}
+
+.moon svg {
+    fill: #73C0FC;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 1;
+    width: 24px;
+    height: 24px;
+}
+
+/* .switch:hover */
+.sun svg {
+    animation: rotate 15s linear infinite;
+}
+
+@keyframes rotate {
+
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* .switch:hover */
+.moon svg {
+    animation: tilt 5s linear infinite;
+}
+
+@keyframes tilt {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-10deg);
+    }
+
+    75% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.input:checked+.slider {
+    background-color: #183153;
+}
+
+.input:focus+.slider {
+    box-shadow: 0 0 1px #183153;
+}
+
+.input:checked+.slider:before {
+    transform: translateX(30px);
+}
+
+/* Switch CSS ends here */
+
+
+.menu div a {
+    text-decoration: none; /* Removes underline from links */
+    color: inherit; /* Ensures links use the text color of their parent elements */
+    cursor: pointer; /* Shows a pointer cursor to indicate clickable items */
+}
+
+.menu div a:hover, .menu div a:focus {
+    text-decoration: none; /* Ensures underline does not reappear on hover/focus */
+    color: #FDA700; /* Optional: changes color on hover for visual feedback */
+}

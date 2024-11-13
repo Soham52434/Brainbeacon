@@ -1,0 +1,182 @@
+/* General Styling */
+.article-box {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FDA700;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Articles Container */
+.articles-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+/* Article Row */
+.article-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+/* Article Card Styling */
+.article-card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* background-color: #ffffff;  */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+}
+
+.article-card .article-content {
+    width: 60%;
+}
+
+.article-card .article-image {
+    width: 40%;
+    height: 80%;
+    background-color: #d3d3d3;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Alternating Layout for Odd and Even Rows */
+.article-row:nth-child(odd) .article-card {
+    flex-direction: row;
+}
+
+.article-row:nth-child(even) .article-card {
+    flex-direction: row-reverse;
+}
+
+/* Article Content */
+.article-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    /* color: #333; */
+}
+
+.article-description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Read More Button */
+button.read-more {
+    color: #000;
+    border: 2px solid #000;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    margin-top: 30px;
+}
+
+button.read-more:hover {
+    background-color: #FDA700;
+    border-color: #FDA700;
+}
+
+/* Bottom Button Container */
+.article-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.article-buttons button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.article-buttons button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Specific Styling for Buttons */
+.write-article {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.view-more {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.buttons-container{
+    width: 80%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between
+}
+
+/* Article Card Styling */
+.article-card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+    flex-direction: row; /* Default direction */
+}
+
+/* Alternating Layout for Odd and Even Rows */
+.article-row:nth-child(even) .article-card {
+    flex-direction: row-reverse;
+}
+
+/* Article Image */
+.article-image {
+    width: 40%;
+    height: 80%;
+    background-color: #d3d3d3;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Article Content */
+.article-content {
+    width: 60%;
+}
+
+/* Rest of your CSS styles... */
+
+
+/* CSS code for Article Site */

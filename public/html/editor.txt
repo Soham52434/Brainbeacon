@@ -1,0 +1,238 @@
+<style>
+/* Title input styling */
+#articleTitle {
+    width: 100%;
+    padding: 15px;
+    margin-top:5%;
+    font-size: 1.2em;
+    border-radius: 8px;
+    border: 2px solid #3498db;
+    outline: none;
+    transition: border-color 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#articleTitle:focus {
+    border-color: #2980b9;
+}
+
+/* Save button styling */
+#saveContent {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    padding: 15px 30px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#saveContent:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+/* Feedback box styling */
+.feedback-box {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    display: none;
+    z-index: 150;
+}
+
+.feedback-success {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.feedback-error {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.feedback-icon {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/* Modal box styling */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 200;
+    display: none;
+}
+
+.modal-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+    z-index: 201;
+}
+
+.modal-buttons {
+    margin-top: 20px;
+}
+
+.modal-btn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.modal-btn:hover {
+    background-color: #2980b9;
+}
+</style>
+
+<script src="https://cdn.tiny.cloud/1/3yfgymdbbd2e4o8qibqqw81qof7ry6s4xjq5b3tc81ney8r1/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    tinymce.init({
+        selector: '#editor',
+        height: 800,
+        plugins: 'print preview importcss searchreplace autolink directionality code visualblocks visualchars fullscreen image link media template codesample table charmap hr pagebreak nonbreaking anchor toc insertdatetime advlist lists wordcount imagetools textpattern noneditable help charmap quickbars emoticons',
+        toolbar: 'undo redo | formatselect | fontselect fontsizeselect | bold italic underline strikethrough | forecolor backcolor | alignleft aligncenter alignright alignjustify | outdent indent | numlist bullist | superscript subscript | link image media | fullscreen preview print | removeformat | help',
+        content_style: "body { font-family: Arial, sans-serif; font-size: 14px; }",
+        setup: function (editor) {
+            document.getElementById('saveContent').addEventListener('click', () => {
+                const title = document.getElementById('articleTitle').value.trim();
+                const content = editor.getContent().trim();
+                const articleId = getCookie('brainbeacon');
+
+                if (!title || !content) {
+                    showFeedback('error', 'Oops! You have left title/article undefined');
+                    return;
+                }
+
+                if (!articleId) {
+                    showFeedback('error', 'Article ID is missing from cookies');
+                    return;
+                }
+
+                // Show custom modal for submission confirmation
+                showModal(articleId, title, content);
+            });
+        }
+    });
+});
+
+function showFeedback(type, message) {
+    const feedbackBox = document.createElement('div');
+    feedbackBox.classList.add('feedback-box', type === 'success' ? 'feedback-success' : 'feedback-error');
+
+    const successSVG = `
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </svg>
+    `;
+    const errorSVG = `
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </svg>
+    `;
+
+    feedbackBox.innerHTML = `
+        <span class="feedback-icon">
+            ${type === 'success' ? successSVG : errorSVG}
+        </span> 
+        ${message}
+    `;
+
+    document.body.appendChild(feedbackBox);
+    feedbackBox.style.display = 'block';
+
+    setTimeout(() => {
+        feedbackBox.remove();
+    }, 3000);
+}
+
+function showModal(articleId, title, content) {
+    const modalOverlay = document.createElement('div');
+    modalOverlay.classList.add('modal-overlay');
+
+    const modalBox = document.createElement('div');
+    modalBox.classList.add('modal-box');
+    modalBox.innerHTML = `
+        <p>Do you want to submit the article for evaluation?</p>
+        <div class="modal-buttons">
+            <button class="modal-btn" id="cancelBtn">No</button>
+            <button class="modal-btn" id="submitBtn">Submit</button>
+        </div>
+    `;
+
+    document.body.appendChild(modalOverlay);
+    document.body.appendChild(modalBox);
+
+    modalOverlay.style.display = 'block';
+
+    document.getElementById('cancelBtn').addEventListener('click', () => {
+        modalOverlay.remove();
+        modalBox.remove();
+    });
+
+    document.getElementById('submitBtn').addEventListener('click', () => {
+        modalOverlay.remove();
+        modalBox.remove();
+
+        fetch('/write-articles-editor', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ title: title, content: content, articleid: articleId })
+        })
+        .then(response => response.text())
+        .then(data => {
+            showFeedback('success', 'Thank you for your valuable contribution!');
+            setTimeout(() => {
+                window.location.href = '/';
+            }, 3000);
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            showFeedback('error', 'An error occurred while submitting the article');
+        });
+    });
+}
+
+function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+}
+</script>
+
+<div class="center-container">
+    <input type="text" id="articleTitle" placeholder="Enter the article title" style="width: 100%; padding: 10px; margin-bottom: 20px; font-size: 1.1em; border-radius: 5px; border: 1px solid #ddd;">
+    <textarea id="editor"></textarea>
+    <button id="saveContent" class="option-btn">Save Content</button>
+</div>

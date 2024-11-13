@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brainbeacon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #eef2f7;
+            font-family: 'Arial', sans-serif;
+            position: relative;
+        }
+
+        .chat-container {
+            width: 100%;
+            height: 100vh;
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 0;
+            box-shadow: none;
+            position: relative;
+        }
+
+        .chat-header {
+            text-align: center;
+            align-items: center;
+            padding: 15px;
+            background-color: #3498db;
+            color: #ffffff;
+            font-size: 1.5em;
+            position: relative;
+        }
+
+        .chat-header span i {
+            color: #fda700;
+        }
+
+        .back-button {
+            position: absolute;
+            left: 15px;
+            top: 15px;
+            background: none;
+            border: none;
+            color: #ffffff;
+            font-size: 1.2em;
+            cursor: pointer;
+            padding: 5px;
+        }
+
+        .comment-box {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            z-index: 200;
+            width: 30%;
+        }
+
+        .comment-box-title {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+
+        .comment-box-title i {
+            color: #fda700;
+        }
+
+        .comment-box button {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            background-color: #3498db;
+            border: none;
+            border-radius: 25px;
+            color: #ffffff;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+
+        .comment-box button:hover {
+            background-color: #2980b9;
+        }
+
+        .chat-box {
+            flex: 1;
+            padding: 15px;
+            overflow-y: auto;
+            background-color: #f9f9f9;
+            border-bottom: 1px solid #ddd;
+            background-image: url('/public/images/bg design 1.svg');
+            background-repeat: repeat;
+            background-size: auto;
+        }
+
+        .chat-box .message {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .chat-box .message.sent {
+            justify-content: flex-end;
+        }
+
+        .chat-box .message.received {
+            justify-content: flex-start;
+        }
+
+        .chat-box .text {
+            padding: 10px 15px;
+            border-radius: 20px;
+            max-width: 70%;
+            display: inline-block;
+            font-size: 1em;
+            margin-bottom: 5px;
+        }
+
+        .chat-box .message.sent .text {
+            background-color: #3498db;
+            color: #fff;
+            text-align: right;
+            border-top-right-radius: 0;
+        }
+
+        .chat-box .message.received .text {
+            background-color: #e1e5ea;
+            color: #333;
+            text-align: left;
+            border-top-left-radius: 0;
+        }
+
+        .chat-input {
+            display: flex;
+            padding: 10px;
+            background-color: #f1f1f1;
+        }
+
+        .chat-input input {
+            flex: 1;
+            border: 1px solid #ddd;
+            border-radius: 25px;
+            padding: 10px 15px;
+            font-size: 1em;
+            outline: none;
+            margin-right: 10px;
+        }
+
+        .chat-input button {
+            background-color: #3498db;
+            border: none;
+            border-radius: 25px;
+            color: #ffffff;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+
+        .chat-input button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="chat-container">
+        
+        <div class="chat-header">
+            <button class="back-button" onclick="showCommentBox()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                    <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+                  </svg>
+                Back
+            </button>
+            <span>Bra<span style="color: #fda700; font-style: normal;">i</span>nBeacon</span>
+        </div>
+        <div class="chat-box" id="chatBox"></div>
+        <div class="chat-input">
+            <input type="text" id="messageInput" placeholder="Type your message...">
+            <button id="sendButton">Send</button>
+        </div>
+    </div>
+
+    <div class="comment-box" id="commentBox" style="display: none;">
+        <span style="font-size: 36px;font-weight: 300;">Bra<span style="color: #fda700; font-style: normal;">i</span>nBeacon</span>
+        <p style="margin-top: 30px; font-size: 24px;font-weight: 200;">Wait, are we ending our chat already? </p>
+        <p style="margin-top: 20px; font-size: 20px;f"><br>Remember,<br> I'm here whenever you need to talk or have questions...</p>
+        <button onclick="hideCommentBox()">Let's continue</button>
+        <button onclick="clearConversation()">Now I feel better</button>
+    </div>
+
+    <script>
+        document.getElementById('sendButton').addEventListener('click', sendMessage);
+        document.getElementById('messageInput').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+
+        async function sendMessage() {
+            const messageInput = document.getElementById('messageInput');
+            const messageText = messageInput.value.trim();
+
+            if (messageText === '') return;
+
+            addMessageToChat('sent', messageText);
+            messageInput.value = '';
+
+            try {
+                const response = await fetch('/send-message', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ message: messageText }),
+                });
+
+                const data = await response.json();
+                if (data.reply) {
+                    addMessageToChat('received', data.reply);
+                } else {
+                    addMessageToChat('received', 'Error: No response from AI');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                addMessageToChat('received', 'Error: Failed to connect to the server');
+            }
+        }
+
+        function addMessageToChat(type, text) {
+            const chatBox = document.getElementById('chatBox');
+            const message = document.createElement('div');
+            message.classList.add('message', type);
+
+            const textNode = document.createElement('div');
+            textNode.classList.add('text');
+            textNode.textContent = text;
+
+            message.appendChild(textNode);
+            chatBox.appendChild(message);
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        function showCommentBox() {
+            document.getElementById('commentBox').style.display = 'block';
+        }
+
+        function hideCommentBox() {
+            document.getElementById('commentBox').style.display = 'none';
+        }
+
+        async function clearConversation() {
+            try {
+                await fetch('/send-message', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ command: 'clear-input-output' }),
+                });
+                window.location.href = '/';
+            } catch (error) {
+                console.error('Error clearing conversation:', error);
+            }
+        }
+    </script>
+</body>
+
+</html>

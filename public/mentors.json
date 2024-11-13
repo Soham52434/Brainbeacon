@@ -1,0 +1,63 @@
+[
+
+    {
+        "image": "/images/image8.png",
+        "title": "Andrew Tate",
+        "description": "Pune, India",
+        "specialization": "Clinical Psychology",
+        "experience": "10 years",
+        "contact": "andrew.tate@example.com",
+        "qualifications": "Ph.D. in Clinical Psychology",
+        "approach": "Cognitive Behavioral Therapy (CBT), Psychodynamic Therapy"
+    },
+    {
+        "image": "/images/image10.png",
+        "title": "Luis Litt",
+        "description": "Pune, India",
+        "specialization": "Child and Adolescent Psychology",
+        "experience": "8 years",
+        "contact": "luis.litt@example.com",
+        "qualifications": "M.A. in Child Psychology",
+        "approach": "Play Therapy, Family Counseling"
+    },
+    {
+        "image": "/images/image9.png",
+        "title": "Harvey Specter",
+        "description": "Mumbai, India",
+        "specialization": "Forensic Psychology",
+        "experience": "12 years",
+        "contact": "harvey.specter@example.com",
+        "qualifications": "M.S. in Forensic Psychology",
+        "approach": "Behavioral Analysis, Crisis Intervention"
+    },
+    {
+        "image": "/images/image10.png",
+        "title": "Michael Ross",
+        "description": "Delhi, India",
+        "specialization": "Cognitive Psychology",
+        "experience": "7 years",
+        "contact": "michael.ross@example.com",
+        "qualifications": "Ph.D. in Cognitive Neuroscience",
+        "approach": "Mindfulness-Based Cognitive Therapy (MBCT), Rational Emotive Behavior Therapy (REBT)"
+    },
+    {
+        "image": "/images/image9.png",
+        "title": "Liam Brown",
+        "description": "Chennai, India",
+        "specialization": "Sports Psychology",
+        "experience": "6 years",
+        "contact": "liam.brown@example.com",
+        "qualifications": "M.S. in Sports Psychology",
+        "approach": "Motivational Interviewing, Performance Coaching"
+    },
+    {
+        "image": "/images/image8.png",
+        "title": "Ethan Clark",
+        "description": "Kolkata, India",
+        "specialization": "Neuropsychology",
+        "experience": "15 years",
+        "contact": "ethan.clark@example.com",
+        "qualifications": "Ph.D. in Neuropsychology",
+        "approach": "Neurofeedback, Brain Stimulation Therapy"
+    }
+]

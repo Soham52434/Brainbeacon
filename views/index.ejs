@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrainBeacon</title>
+    <link rel="stylesheet" type="text/css" href="./Css/intro.css">
+    <link rel="stylesheet" type="text/css" href="./Css/Navbar.css">
+    <link rel="stylesheet" type="text/css" href="./Css/Card.css">
+    <link rel="stylesheet" type="text/css" href="./Css/article.css">
+    <link rel="stylesheet" type="text/css" href="./Css/Home.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #FFF;
+            /* Default day mode */
+            color: #000;
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+
+    <body>
+        <div class="navbar">
+            <div class="logo">Bra<span style="color: #FDA700; display: inline;">i</span>nbeacon</div>
+            <div class="menu">
+                <div class="search-container">
+                    <!-- Single search icon button that triggers the search box -->
+
+                    <!-- Search box, initially hidden -->
+                    <div id="search-box" class="hidden">
+                        <input type="text" id="search-input" placeholder="type here to search">
+                    </div>
+                    <button id="search-toggle" onclick="toggleSearch()">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M22.7302 20.4872C24.709 17.935 25.6417 14.7244 25.3383 11.5087C25.0349 8.29293 23.5184 5.3136 21.0971 3.17678C18.6759 1.03997 15.5319 -0.0938197 12.3047 0.00608289C9.0775 0.105986 6.00957 1.43207 3.72503 3.71456C1.43851 5.99864 0.108613 9.06898 0.00636384 12.2999C-0.0958853 15.5308 1.0372 18.6792 3.17473 21.1034C5.31225 23.5276 8.29334 25.0452 11.5105 25.3469C14.7276 25.6486 17.9387 24.7118 20.4894 22.7273L20.5576 22.7987L27.2894 29.5348C27.4369 29.6823 27.6119 29.7993 27.8046 29.8791C27.9972 29.9589 28.2037 30 28.4122 30C28.6207 30 28.8272 29.9589 29.0198 29.8791C29.2125 29.7993 29.3875 29.6823 29.5349 29.5348C29.6824 29.3873 29.7993 29.2121 29.8791 29.0194C29.9589 28.8267 30 28.6201 30 28.4115C30 28.203 29.9589 27.9964 29.8791 27.8037C29.7993 27.611 29.6824 27.4358 29.5349 27.2883L22.8016 20.5539L22.7302 20.4872ZM19.4357 5.96097C20.3317 6.84283 21.0443 7.89344 21.5323 9.05218C22.0204 10.2109 22.2744 11.4549 22.2795 12.7123C22.2846 13.9697 22.0408 15.2157 21.5622 16.3784C21.0835 17.541 20.3795 18.5974 19.4907 19.4866C18.602 20.3757 17.546 21.08 16.3838 21.5588C15.2216 22.0376 13.9761 22.2815 12.7192 22.2764C11.4623 22.2713 10.2188 22.0173 9.06052 21.529C7.90224 21.0407 6.85205 20.3278 5.97054 19.4315C4.20892 17.6402 3.22619 15.2251 3.23642 12.7123C3.24664 10.1995 4.249 7.79246 6.02515 6.0156C7.8013 4.23874 10.2073 3.23598 12.7192 3.22575C15.231 3.21552 17.6451 4.19864 19.4357 5.96097Z"
+                                fill="black" />
+                        </svg>
+
+                    </button>
+                </div>
+                <div><a href="/#">Home</a></div>
+                <div><a href="/counselling">Counselling</a></div>
+                <div><a href="/article">Articles</a></div>
+                <div><a href="/mentors">Mentors</a></div>
+                <div><svg width="30" height="30" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M22.6667 8.5H29.3333C29.7754 8.5 30.1993 8.69754 30.5118 9.04918C30.8244 9.40081 31 9.87772 31 10.375V31L25.445 25.8081C25.1454 25.5279 24.768 25.3747 24.3783 25.375H11C10.558 25.375 10.134 25.1775 9.82149 24.8258C9.50893 24.4742 9.33333 23.9973 9.33333 23.5V17.875M22.6667 8.5V2.875C22.6667 2.37772 22.4911 1.90081 22.1785 1.54918C21.8659 1.19754 21.442 1 21 1H2.66667C2.22464 1 1.80072 1.19754 1.48816 1.54918C1.17559 1.90081 1 2.37772 1 2.875V23.5L6.555 18.3062C6.855 18.0287 7.23167 17.875 7.62167 17.875H9.33333M22.6667 8.5V16C22.6667 16.4973 22.4911 16.9742 22.1785 17.3258C21.8659 17.6775 21.442 17.875 21 17.875H9.33333"
+                            stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="menu">
+                <div>
+                    <label class="switch">
+                        <span class="sun"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <g fill="#ffd43b">
+                                    <circle r="5" cy="12" cx="12"></circle>
+                                    <path
+                                        d="m21 13h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm-17 0h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm13.66-5.66a1 1 0 0 1 -.66-.29 1 1 0 0 1 0-1.41l.71-.71a1 1 0 1 1 1.41 1.41l-.71.71a1 1 0 0 1 -.75.29zm-12.02 12.02a1 1 0 0 1 -.71-.29 1 1 0 0 1 0-1.41l.71-.66a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1 -.7.24zm6.36-14.36a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm0 17a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm-5.66-14.66a1 1 0 0 1 -.7-.29l-.71-.71a1 1 0 0 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.29zm12.02 12.02a1 1 0 0 1 -.7-.29l-.66-.71a1 1 0 0 1 1.36-1.36l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.24z">
+                                    </path>
+                                </g>
+                            </svg></span>
+                        <span class="moon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                <path
+                                    d="m223.5 32c-123.5 0-223.5 100.3-223.5 224s100 224 223.5 224c60.6 0 115.5-24.2 155.8-63.4 5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6-96.9 0-175.5-78.8-175.5-176 0-65.8 36-123.1 89.3-153.3 6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z">
+                                </path>
+                            </svg></span>
+                        <input type="checkbox" class="input" id="modeToggle" onchange="toggleMode()">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div>
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="myPath"
+                            d="M15 2.5C8.09625 2.5 2.5 8.09625 2.5 15C2.5 21.9037 8.09625 27.5 15 27.5C21.9037 27.5 27.5 21.9037 27.5 15C27.5 8.09625 21.9037 2.5 15 2.5Z"
+                            stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="myPath"
+                            d="M5.33887 22.9325C5.33887 22.9325 8.12512 19.375 15.0001 19.375C21.8751 19.375 24.6626 22.9325 24.6626 22.9325M15.0001 15C15.9947 15 16.9485 14.6049 17.6518 13.9017C18.355 13.1984 18.7501 12.2446 18.7501 11.25C18.7501 10.2554 18.355 9.30161 17.6518 8.59835C16.9485 7.89509 15.9947 7.5 15.0001 7.5C14.0056 7.5 13.0517 7.89509 12.3485 8.59835C11.6452 9.30161 11.2501 10.2554 11.2501 11.25C11.2501 12.2446 11.6452 13.1984 12.3485 13.9017C13.0517 14.6049 14.0056 15 15.0001 15Z"
+                            stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="home-content">
+            <%- data %>
+        </div>
+
+        <footer>
+            <div class="footer-container">
+                <div class="newsletter">
+                    <p>Sign up to receive Updates & Articles</p>
+                    <form action="#" method="post">
+                        <input type="email" placeholder="enter your email id">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+                <div class="footer-section">
+                    <div class="footer-links">
+                        <div class="links-column">
+                            <h4>Pages</h4>
+                            <a href="#">Our Work</a>
+                            <a href="#">Collaborations</a>
+                            <a href="#">Research</a>
+                            <a href="#">Users Testimonials</a>
+                            <a href="#">Become a Partner</a>
+                            <a href="#">Join our Initiatives</a>
+                        </div>
+                        <div class="links-column">
+                            <h4>Know More</h4>
+                            <a href="/faq">FAQs</a>
+                            <a href="/article">Articles</a>
+                            <a href="#">Counselling</a>
+                            <a href="#">Contact Us</a>
+                        </div>
+                        <div class="contact-info">
+                            <h4>Our Contact</h4>
+                            <p>📞 +91 3214567890</p>
+                            <p>📧 contact@brainbeacon.in</p>
+                            <p>📍 Address line 1<br>&nbsp &nbsp Address line 2<br>&nbsp &nbsp Magarpatta, Pune -
+                                411028<br>&nbsp &nbsp Maharashtra, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <a href="https://facebook.com/"><svg width="13" height="13" viewBox="0 0 30 29" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M30 14.5363C30 6.51228 23.28 0 15 0C6.72 0 0 6.51228 0 14.5363C0 21.5719 5.16 27.4301 12 28.782V18.8972H9V14.5363H12V10.9023C12 8.09674 14.355 5.81454 17.25 5.81454H21V10.1754H18C17.175 10.1754 16.5 10.8296 16.5 11.6291V14.5363H21V18.8972H16.5V29C24.075 28.2732 30 22.0807 30 14.5363Z"
+                                fill="black" />
+                        </svg>
+                        Facebook</a>
+                    <a href="https://linkedin.com/"><svg width="13" height="13" viewBox="0 0 29 29" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M26.8607 0.000109819H2.13934C1.57843 -0.00559857 1.03817 0.211438 0.637094 0.603597C0.236019 0.995757 0.00689612 1.53101 0 2.0919V26.9129C0.00814326 27.4729 0.237815 28.007 0.638754 28.3981C1.03969 28.7892 1.57925 29.0056 2.13934 28.9999H26.8607C27.4216 29.0043 27.9615 28.7866 28.3624 28.3942C28.7632 28.0018 28.9925 27.4666 29 26.9057V2.08477C28.99 1.52552 28.7597 0.992822 28.3591 0.602463C27.9585 0.212104 27.42 -0.00436415 26.8607 0.000109819ZM8.59779 24.7212H4.29295V10.8703H8.59779V24.7212ZM6.45844 8.98291C5.9647 8.98338 5.48191 8.8374 5.07115 8.56343C4.66039 8.28947 4.34011 7.89983 4.15084 7.44381C3.96156 6.98779 3.9118 6.48587 4.00783 6.00156C4.10387 5.51725 4.34139 5.07231 4.69036 4.72301C5.03932 4.37372 5.48404 4.13578 5.96826 4.03928C6.45249 3.94278 6.95445 3.99207 7.41066 4.18091C7.86686 4.36974 8.25681 4.68965 8.53117 5.10014C8.80552 5.51064 8.95197 5.99329 8.95197 6.48703C8.95134 6.81519 8.88601 7.14001 8.75971 7.4429C8.6334 7.74579 8.44861 8.02079 8.21589 8.25218C7.98318 8.48356 7.70712 8.66679 7.40352 8.79136C7.09991 8.91593 6.77472 8.97941 6.44656 8.97816L6.45844 8.98291ZM24.7213 24.7212H20.4165V17.9824C20.4165 16.3779 20.388 14.3122 18.1797 14.3122C15.9714 14.3122 15.5958 16.0617 15.5958 17.8778V24.7212H11.2981V10.8703H15.4247V12.7719H15.4817C16.057 11.6832 17.4594 10.5351 19.5536 10.5351C23.9131 10.5256 24.7213 13.3947 24.7213 17.1147V24.7212Z"
+                                fill="black" />
+                        </svg>
+                        LinkedIn</a>
+                    <a href="https://twitter.com/"><svg width="13" height="13" viewBox="0 0 30 28" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M23.625 0H28.2257L18.1757 11.8594L30 28H20.7429L13.4871 18.2128L5.19429 28H0.589286L11.3379 15.3108L0 0.00220678H9.49286L16.0414 8.94641L23.625 0ZM22.0071 25.1576H24.5571L8.1 2.69451H5.36571L22.0071 25.1576Z"
+                                fill="black" />
+                        </svg>
+                        Twitter</a>
+                </div>
+                <div class="dashed-line"></div>
+                <p>© Copyright 2024 | thebrainbeacon.com | All rights reserved.</p>
+            </div>
+        </footer>
+        <script src="./Scripts/homePage.js"></script>
+        <script src="./Scripts/Day-Night.js"></script>
+        <script src="./Scripts/searchButton.js"></script>
+        <script src="./Scripts/Card.js"></script>
+        <script src="./Scripts/article.js"></script>
+        <script src="./Scripts/login.js"></script>
+        <script src="./Scripts/articlesPage.js"></script>
+    </body>
+
+</html>

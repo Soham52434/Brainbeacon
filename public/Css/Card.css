@@ -1,0 +1,104 @@
+/* Container styling */
+.container {
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.container h2 {
+    color: #FDA700;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Carousel styling */
+.carousel {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.carousel-outer {
+    overflow: hidden;
+    width: 100%;
+    z-index: 1;
+}
+
+.carousel-inner {
+    display: flex;
+    justify-content: space-between; /* Distribute extra space between cards */
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Card styling */
+.card {
+    flex: 1 0 auto; /* Auto width based on content */
+    margin: 0 10px;
+    background-color: transparent;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    max-width: 300px; /* Ensures up to 4 cards max on large screens */
+}
+
+.image-container img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Text inside card */
+.textInCard {
+    padding: 10px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.textInCard h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.textInCard p {
+    font-size: 14px;
+    margin: 0;
+    font-weight: normal;
+}
+
+/* Arrow button styling */
+.arrow {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.left-arrow {
+    left: -30px;
+}
+
+.right-arrow {
+    right: -30px;
+}
+
+
+
+.carousel-outer {
+    overflow: hidden;
+    position: relative;
+}
+
+#carouselInner {
+    display: flex;
+    transition: transform 0.3s ease; /* Smooth scrolling */
+}

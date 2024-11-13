@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brainbeacon Login Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Changed from height to min-height */
+            margin: 0;
+            background-color: #fdf4e3; /* Light beige background */
+            font-family: 'Arial', sans-serif;
+        }
+
+        .login-container {
+            display: flex;
+            flex-direction: row; /* Ensure row direction on larger screens */
+            width: 70%;
+            max-width: 1000px; /* Added max-width */
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .left-section, .right-section {
+            flex: 1;
+            padding: 30px;
+            box-sizing: border-box; /* Ensure padding doesn't exceed container width */
+        }
+
+        .left-section {
+            background-color: #fdf4e3;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .left-section img {
+            width: 80%;
+            height: auto;
+        }
+
+        .left-section h1 {
+            font-size: 36px;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        .left-section span {
+            color: #fda700; /* Highlight color */
+        }
+
+        .left-section p {
+            font-size: 18px; /* Added font size */
+            color: #555; /* Added color */
+        }
+
+        .right-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .right-section h2 {
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        .input-group {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .forgot-password {
+            align-self: flex-end;
+            font-size: 14px;
+            color: #888;
+            text-decoration: none;
+        }
+
+        .login-btn, .social-btn {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .login-btn {
+            background-color: #fff;
+            border: 2px solid #333;
+            color: #333;
+        }
+
+        .login-btn:hover {
+            background-color: #fda700;
+            color: #fff;
+        }
+
+        .social-btn {
+            background-color: #f1f1f1;
+            margin-top: 5px;
+        }
+
+        .social-btn img {
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        .signup-text {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .signup-text a {
+            text-decoration: none;
+            color: #fda700;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .login-container {
+                flex-direction: column;
+                width: 90%; /* Adjusted width for smaller screens */
+            }
+
+            .left-section, .right-section {
+                padding: 20px;
+            }
+
+            .left-section h1 {
+                font-size: 28px;
+            }
+
+            .right-section h2 {
+                font-size: 24px;
+            }
+
+            .input-group input {
+                font-size: 14px;
+            }
+
+            .login-btn, .social-btn {
+                font-size: 14px;
+                padding: 8px;
+            }
+
+            .signup-text {
+                font-size: 12px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .left-section img {
+                width: 60%;
+            }
+
+            .left-section h1 {
+                font-size: 24px;
+            }
+
+            .right-section h2 {
+                font-size: 20px;
+            }
+
+            .input-group input {
+                font-size: 12px;
+                padding: 8px;
+            }
+
+            .login-btn, .social-btn {
+                font-size: 12px;
+                padding: 8px;
+            }
+
+            .signup-text {
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <!-- Left section -->
+        <div class="left-section">
+            <img src="brainbeacon-logo.png" alt="Brainbeacon Logo">
+            <h1>Brain<span>beacon</span></h1>
+            <p>Your one-stop Psychology platform</p>
+        </div>
+
+        <!-- Right section -->
+        <div class="right-section">
+            <h2>Login</h2>
+            <div class="input-group">
+                <input type="email" placeholder="Email ID">
+                <input type="password" placeholder="Password">
+                <a href="#" class="forgot-password">Forgot password?</a>
+            </div>
+            <button class="social-btn"><img src="google-icon.png" alt="Google" width="20"> Login with Google</button>
+            <button class="social-btn"><img src="facebook-icon.png" alt="Facebook" width="20"> Login with Facebook</button>
+            <button class="login-btn">Login</button>
+            <p class="signup-text">Don't have an account? <a href="#">Sign-up</a></p>
+        </div>
+    </div>
+</body>
+</html>

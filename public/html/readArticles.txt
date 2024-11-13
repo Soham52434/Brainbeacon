@@ -1,0 +1,88 @@
+    <style>
+    /* Article Container */
+.article-container {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Title Styling */
+.article-container h1 {
+    font-size: 2.2em;
+    margin-bottom: 15px;
+    color: #2c3e50;
+    text-align: center;
+}
+
+/* Author Details */
+.author-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.author-meta {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-name {
+    font-weight: bold;
+    font-size: 1em;
+    color: #34495e;
+}
+
+.publish-date {
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
+
+/* Article Content */
+.article-content p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Back Link */
+.back-link {
+    display: block;
+    margin-top: 20px;
+    font-size: 0.95em;
+    color: #3498db;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.3s;
+}
+
+.back-link:hover {
+    color: #2980b9;
+}
+    </style>
+      <div class="article-container">
+          <h1><%= title %></h1>
+          <div class="author-details">
+              <img src="<%= pfp %>" alt="Profile Picture" class="profile-pic">
+              <div class="author-meta">
+                  <span class="author-name">By <%= name %></span>
+                  <span class="publish-date"><%= date %></span>
+              </div>
+          </div>
+          <div class="article-content">
+              <p><%= content %></p>
+          </div>
+          <a href="/article" class="back-link">← Back to Articles</a>
+      </div>

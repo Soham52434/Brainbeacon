@@ -1,0 +1,336 @@
+/* Apply box-sizing to all elements */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Opening banner styles */
+
+.welcome-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+    /* Removed width to let it naturally fill the available space */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.textBox {
+    width: 40%;
+    min-height: 300px;
+    align-self: start;
+}
+
+.text-content {
+    width: 50%;
+}
+
+.highlight {
+    color: #FDA700;
+}
+
+.textBox h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.textBox_Para {
+    font-size: 48px;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+.learn-more-btn {
+    color: #000;
+    border: 2px solid #000;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    margin-top: 30px;
+}
+
+.learn-more-btn:hover {
+    background-color: #FDA700;
+    border-color: #FDA700;
+}
+
+.brain-illustrations {
+    display: flex;
+    width: 50%;
+}
+
+.brain-illustrations img {
+    width: 100%;
+    height: auto;
+}
+
+/* Login code */
+
+/* Styles for the login overlay */
+.login-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Close button */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+}
+
+.close-btn:hover {
+    color: #f00;
+}
+
+/* Login container adjustments */
+.login-container {
+    position: relative;
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Styles for left and right sections */
+.left-section,
+.right-section {
+    flex: 1;
+    padding: 30px;
+}
+
+.left-section {
+    background-color: #fdf4e3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section img {
+    width: 80%;
+    height: auto;
+}
+
+.left-section h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    color: #333;
+}
+
+.left-section span {
+    color: #fda700;
+}
+
+.left-section p {
+    font-size: 18px;
+    color: #555;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-section h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+.right-section-login{
+    /* display: block; */
+    justify-items: center;
+    align-content: center;
+    width: 60%;
+}
+
+
+.social-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-btn img {
+    margin-right: 8px;
+}
+
+.signup-text {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup-text a {
+    text-decoration: none;
+    color: #fda700;
+}
+
+/* Ensure the main content is accessible even with the overlay */
+body {
+    overflow: auto;
+}
+
+/* Footer styles */
+
+footer {
+    background-color: #f6a800;
+    color: #ffffff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    /* Removed width and bottom properties */
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-section {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-grow: 2;
+}
+
+.links-column {
+    margin-right: 20px;
+}
+
+.links-column h4 {
+    margin-bottom: 10px;
+}
+
+.links-column a {
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 2;
+    display: block;
+}
+
+.contact-info p {
+    line-height: 1.5;
+}
+
+.newsletter {
+    flex-grow: 1;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.newsletter p, .newsletter form {
+    margin: 0 auto;
+}
+
+.newsletter input[type="email"] {
+    padding: 8px;
+    margin-right: 10px;
+    border: none;
+    width: 250px;
+}
+
+.newsletter button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.footer-bottom a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .welcome-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .textBox,
+    .brain-illustrations {
+        width: 100%;
+    }
+
+    .textBox {
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links,
+    .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links-column,
+    .newsletter {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .footer-bottom {
+        text-align: center;
+    }
+}
+
+.dashed-line {
+    width: 80%; /* Width of the dashed line */
+    border-bottom: 2px solid #ffffff; /* White dashed line */
+    margin: 20px auto; /* Centered horizontally with top and bottom margin */
+}
